@@ -1,4 +1,67 @@
 /* Typo */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root{
+	/* Font Scale */
+	--fs-sm: clamp(0.7rem, 0.29vi + 0.63rem, 0.84rem);
+	--fs-base: clamp(0.88rem, 0.5vi + 0.75rem, 1.13rem);
+	--fs-md: clamp(1.09rem, 0.81vi + 0.89rem, 1.5rem);
+	--fs-lg: clamp(1.37rem, 1.26vi + 1.05rem, 2rem);
+	--fs-xl: clamp(1.71rem, 1.91vi + 1.23rem, 2.66rem);
+	--fs-xxl: clamp(2.14rem, 2.83vi + 1.43rem, 3.55rem);
+	--fs-xxxl: clamp(2.67rem, 4.13vi + 1.64rem, 4.73rem);
+	/* Couleur */
+	--color-red: hsl(359, 100%, 53%);
+	--color-blue:
+}
+
+/* All the page */
 *{
-	font-family: ;
+	font-family: "Inter", sans-serif;
+	font-weight: 900;
+	color: var(--color-red);
+}
+
+img{
+	max-width: 100%;
+}
+
+.Affiche{
+	height: 300px;
+}
+
+h1{
+	font-size: var(--fs-xxxl);
+}
+
+p{
+	font-size: var(--fs-base);
+}
+
+
+h2{
+	font-size: var(--fs-xl);
+}
+
+.sm{
+	font-size: var(--fs-sm);
+}
+.base{
+	font-size: var(--fs-base);
+	text-decoration: underline ;
+}
+.md{
+	font-size: var(--fs-md);
+}
+.lg{
+	font-size: var(--fs-lg);
+}
+.xl{
+	font-size: var(--fs-xl);
+}
+.xxl{
+	font-size: var(--fs-xxl);
+}
+.xxxl{
+	font-size: var(--fs-xxxl);
 }
